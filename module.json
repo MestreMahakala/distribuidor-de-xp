@@ -1,0 +1,39 @@
+{
+  "id": "distribuidor-de-xp",
+  "title": "distribuidor-de-xp",
+  "version": "1.0.0",
+  "compatibility": {
+    "minimum": "11",
+    "verified": "11"
+  },
+  "relationships": {
+    "systems": [
+      {
+        "id": "dnd5e",
+        "type": "system",
+        "compatibility": {}
+      }
+    ]
+  },
+  "authors": [
+    {
+      "name": "Mahakala"
+    }
+  ],
+  "esmodules": [
+   "settings.js",
+   "teste.js"],
+   "styles": [
+    "botao.css"
+  ],
+  
+  "scripts": [
+  "https://apis.google.com/js/api.js"
+  ],
+  "permissions":[
+    {
+      "role": "Assistant_GM",
+      "default": false  
+    }
+  ]
+}

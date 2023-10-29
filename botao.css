@@ -1,0 +1,18 @@
+.myButton {
+    position: absolute;
+    bottom: 100px;
+    right: 300px;
+    padding: 10px;
+    background: rgba(255, 255, 240, 0.7);
+    color: rgb(29, 0, 0);
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    width: 150px; /* Ajuste a largura conforme necessário */
+    height: 50px; /* Ajuste a altura conforme necessário */    
+}
+
+.myButton:hover {
+  box-shadow: none;
+  text-shadow: 0 0 10px red;
+}
